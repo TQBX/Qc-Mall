@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="qc_service_order:war">
+    <output-path>$PROJECT_DIR$/qc_service_order/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>qc_service_order</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="qc_service_order-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="qc_service_order:war exploded" />
+    </root>
+  </artifact>
+</component>

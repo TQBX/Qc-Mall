@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/qc_common/qc_common.iml" filepath="$PROJECT_DIR$/qc_common/qc_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qc_common_service/qc_common_service.iml" filepath="$PROJECT_DIR$/qc_common_service/qc_common_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qc_common_web/qc_common_web.iml" filepath="$PROJECT_DIR$/qc_common_web/qc_common_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qc_interface/qc_interface.iml" filepath="$PROJECT_DIR$/qc_interface/qc_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qc_parent.iml" filepath="$PROJECT_DIR$/qc_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qc_pojo/qc_pojo.iml" filepath="$PROJECT_DIR$/qc_pojo/qc_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qc_service_business/qc_service_business.iml" filepath="$PROJECT_DIR$/qc_service_business/qc_service_business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qc_service_config/qc_service_config.iml" filepath="$PROJECT_DIR$/qc_service_config/qc_service_config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qc_service_goods/qc_service_goods.iml" filepath="$PROJECT_DIR$/qc_service_goods/qc_service_goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qc_service_order/qc_service_order.iml" filepath="$PROJECT_DIR$/qc_service_order/qc_service_order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qc_service_system/qc_service_system.iml" filepath="$PROJECT_DIR$/qc_service_system/qc_service_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qc_service_user/qc_service_user.iml" filepath="$PROJECT_DIR$/qc_service_user/qc_service_user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qc_web_manager/qc_web_manager.iml" filepath="$PROJECT_DIR$/qc_web_manager/qc_web_manager.iml" />
+    </modules>
+  </component>
+</project>
