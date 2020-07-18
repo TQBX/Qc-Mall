@@ -118,6 +118,10 @@ public class AlbumServiceImpl implements AlbumService {
                 criteria.andLike("imageItems","%"+searchMap.get("imageItems")+"%");
             }
 
+            if (searchMap.get("id") != null) {
+                criteria.andEqualTo("id", searchMap.get("id"));
+            }
+
             
             
 

@@ -113,15 +113,19 @@
                                 <el-form-item label="名称">
                                     <el-input v-model="pojo.name"></el-input>
                                 </el-form-item>
-                                <el-form-item label="选项">
-                                    <el-input v-model="pojo.options"></el-input>
+                                <el-form-item label="参数选项">
+                                    <el-input
+                                            type="textarea"
+                                            :autosize="{ minRows: 2, maxRows: 4}"
+                                            v-model="pojo.options">
+                                    </el-input>
                                 </el-form-item>
                                 <el-form-item label="排序">
                                     <el-input v-model="pojo.seq"></el-input>
                                 </el-form-item>
-                                <el-form-item label="模板ID">
-                                    <el-input v-model="pojo.templateId"></el-input>
-                                </el-form-item>
+                                <!--<el-form-item label="模板ID">-->
+                                <!--    <el-input v-model="pojo.templateId"></el-input>-->
+                                <!--</el-form-item>-->
 
                                 <!-- 图片上传代码 如页面有图片上传功能放开注释 ****
                                 <el-form-item label="图片">
