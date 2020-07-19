@@ -12,6 +12,7 @@ com\qingcheng\entity\PageResult.class
 com\qingcheng\pojo\goods\Spu.class
 com\qingcheng\pojo\business\Ad.class
 com\qingcheng\pojo\user\Address.class
+com\qingcheng\pojo\goods\Goods.class
 com\qingcheng\pojo\system\Menu.class
 com\qingcheng\pojo\user\Cities.class
 com\qingcheng\pojo\config\FreightTemplate.class

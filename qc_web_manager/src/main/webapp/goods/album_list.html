@@ -78,16 +78,16 @@
 
                         <!--图片id,图片状态,图片内容-->
 
-                        <el-table-column prop="uid" label="图片ID" width="100"></el-table-column>
-                        <el-table-column label="图片" width="200">
+                        <el-table-column prop="uid" label="图片ID" width="300"></el-table-column>
+                        <el-table-column label="图片" width="300">
                             <!--模板列-->
                             <template slot-scope="scope">
-                                <img width="100px" height="50px" :src="scope.row.url">
+                                <img width="200px" height="200x" :src="scope.row.url">
                             </template>
                         </el-table-column>
-                        <el-table-column label="状态" width="200">
+                        <el-table-column label="状态" >
                             <!--模板列-->
-                            <template slot-scope="scope">
+
                                 <template slot-scope="scope">
                                     <el-switch
                                             v-model="scope.row.status"
@@ -98,7 +98,7 @@
                                             disabled>
                                     </el-switch>
                                 </template>
-                            </template>
+
                         </el-table-column>
 
 
@@ -231,7 +231,7 @@
 						this.tableData = response.data.rows
 						this.total = response.data.total
 
-                        this.imageList =this.tableData.imageItems
+                        this.imageList = eval(this.tableData[0].imageItems)
 
 					})
 				},
