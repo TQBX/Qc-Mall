@@ -6,18 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="qc_web_manager" />
-        <module name="qc_common_service" />
-        <module name="qc_interface" />
-        <module name="qc_service_goods" />
         <module name="qc_service_order" />
+        <module name="qc_web_manager" />
+        <module name="qc_service_goods" />
+        <module name="qc_service_user" />
         <module name="qc_service_business" />
         <module name="qc_common" />
+        <module name="qc_service_config" />
         <module name="qc_pojo" />
         <module name="qc_service_system" />
-        <module name="qc_service_user" />
+        <module name="qc_interface" />
         <module name="qc_common_web" />
-        <module name="qc_service_config" />
+        <module name="qc_common_service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,7 +30,7 @@
       <module name="qc_service_business" target="1.5" />
       <module name="qc_service_config" target="1.5" />
       <module name="qc_service_goods" target="1.5" />
-      <module name="qc_service_order" target="1.5" />
+      <module name="qc_service_order" target="8" />
       <module name="qc_service_system" target="1.5" />
       <module name="qc_service_user" target="1.5" />
       <module name="qc_web_manager" target="1.5" />

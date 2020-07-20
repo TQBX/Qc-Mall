@@ -59,5 +59,19 @@ public class ReturnOrderController {
         returnOrderService.delete(id);
         return new Result();
     }
+    @PostMapping("/agreeRefund")
+    public Result agreeRefund(String id,Integer money,Integer adminId){
+        adminId = 0;
+        returnOrderService.agreeRefund(id,money,adminId);
+        return new Result();
+    }
+    @PostMapping("/rejectRefund")
+    public Result rejectRefund(String id,String remark,Integer adminId){
+        adminId = 0;
+        returnOrderService.rejectRefund(id,remark,adminId);
+        return new Result();
+    }
+
+
 
 }

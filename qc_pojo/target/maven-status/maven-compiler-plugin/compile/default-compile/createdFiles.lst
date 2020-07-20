@@ -1,6 +1,7 @@
 com\qingcheng\pojo\system\LoginLog.class
 com\qingcheng\pojo\order\OrderItem.class
 com\qingcheng\pojo\system\Admin.class
+com\qingcheng\pojo\goods\CategoryBrand.class
 com\qingcheng\pojo\order\ReturnOrderItem.class
 com\qingcheng\pojo\goods\Para.class
 com\qingcheng\pojo\business\Activity.class
@@ -28,5 +29,6 @@ com\qingcheng\pojo\goods\Template.class
 com\qingcheng\pojo\goods\Category.class
 com\qingcheng\pojo\order\Order.class
 com\qingcheng\pojo\user\User.class
+com\qingcheng\pojo\order\Orders.class
 com\qingcheng\pojo\goods\Spec.class
 com\qingcheng\pojo\order\OrderConfig.class

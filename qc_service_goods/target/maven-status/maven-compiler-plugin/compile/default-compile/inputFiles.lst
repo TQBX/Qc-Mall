@@ -10,6 +10,7 @@ D:\Java_Project\qc-mall\qc_parent\qc_service_goods\src\main\java\com\qingcheng\s
 D:\Java_Project\qc-mall\qc_parent\qc_service_goods\src\main\java\com\qingcheng\service\impl\SpuServiceImpl.java
 D:\Java_Project\qc-mall\qc_parent\qc_service_goods\src\main\java\com\qingcheng\dao\SkuMapper.java
 D:\Java_Project\qc-mall\qc_parent\qc_service_goods\src\main\java\com\qingcheng\service\impl\BrandServiceImpl.java
+D:\Java_Project\qc-mall\qc_parent\qc_service_goods\src\main\java\com\qingcheng\dao\CategoryBrandMapper.java
 D:\Java_Project\qc-mall\qc_parent\qc_service_goods\src\main\java\com\qingcheng\service\impl\SkuServiceImpl.java
 D:\Java_Project\qc-mall\qc_parent\qc_service_goods\src\main\java\com\qingcheng\dao\ParaMapper.java
 D:\Java_Project\qc-mall\qc_parent\qc_service_goods\src\main\java\com\qingcheng\dao\CategoryMapper.java

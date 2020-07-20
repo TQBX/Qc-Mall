@@ -7,5 +7,11 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/qingcheng_goods</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="qingcheng_order@localhost" uuid="5fece33a-9453-4e54-9a70-7e8624a8e04f">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/qingcheng_order</jdbc-url>
+    </data-source>
   </component>
 </project>

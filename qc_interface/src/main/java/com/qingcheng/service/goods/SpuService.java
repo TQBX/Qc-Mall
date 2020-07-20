@@ -43,4 +43,6 @@ public interface SpuService {
     public List<Spu> findDelete();
 
     public void StrongDelete(String id);
+
+    public void  Recycle(String id);
 }

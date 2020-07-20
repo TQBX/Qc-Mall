@@ -28,19 +28,19 @@ public class ReturnOrder implements Serializable{
 
 	private String linkmanMobile;//联系人手机
 
-	private String type;//类型
+	private String type;//类型 1退货 2 退款
 
 	private Integer returnMoney;//退款金额
 
 	private String isReturnFreight;//是否退运费
 
-	private String status;//申请状态
+	private String status;//申请状态 0：申请 1同意 2驳 回
 
 	private java.util.Date disposeTime;//处理时间
 
 	private Integer returnCause;//退货退款原因
 
-	private String evidence;//凭证图片
+	private String evidence;//凭证图片 逗号分割
 
 	private String description;//问题描述
 

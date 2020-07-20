@@ -1,12 +1,14 @@
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\goods\Album.java
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\goods\Pref.java
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\system\Menu.java
+D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\goods\CategoryBrand.java
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\goods\Spu.java
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\user\Areas.java
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\goods\Brand.java
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\order\OrderConfig.java
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\user\Address.java
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\user\Provinces.java
+D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\order\Orders.java
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\order\ReturnCause.java
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\goods\Spec.java
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\system\Role.java
@@ -22,6 +24,7 @@ D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\user\
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\business\Activity.java
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\order\OrderLog.java
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\system\Admin.java
+D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\goods\Goods.java
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\goods\Category.java
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\goods\Sku.java
 D:\Java_Project\qc-mall\qc_parent\qc_pojo\src\main\java\com\qingcheng\pojo\user\Cities.java

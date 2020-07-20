@@ -331,6 +331,19 @@ public class SpuServiceImpl implements SpuService {
         spuMapper.deleteByPrimaryKey(id);
     }
 
+    /**
+     * 回收商品
+     * @param id
+     */
+    public void Recycle(String id) {
+
+        Spu spu = new Spu();
+        spu.setId(id);
+        spu.setIsDelete("0");
+        spuMapper.updateByPrimaryKeySelective(spu);
+
+    }
+
 
     /**
      * 构建查询条件

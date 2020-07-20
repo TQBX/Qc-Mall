@@ -6,6 +6,7 @@ import com.qingcheng.entity.Result;
 import com.qingcheng.pojo.goods.Goods;
 import com.qingcheng.pojo.goods.Spu;
 import com.qingcheng.service.goods.SpuService;
+import com.sun.javafx.binding.StringFormatter;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
@@ -102,6 +103,12 @@ public class SpuController {
     @GetMapping("/strongDelete")
     public Result StrongDelete(String id){
         spuService.StrongDelete(id);
+        return new Result();
+    }
+
+    @GetMapping("/recycle")
+    public Result recycle(String id ){
+        spuService.Recycle(id);
         return new Result();
     }
 

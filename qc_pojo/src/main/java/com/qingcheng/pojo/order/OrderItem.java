@@ -14,8 +14,6 @@ public class OrderItem implements Serializable{
 	private String id;//ID
 
 
-	
-
 	private Integer categoryId1;//1级分类
 
 	private Integer categoryId2;//2级分类
@@ -44,7 +42,7 @@ public class OrderItem implements Serializable{
 
 	private Integer postFee;//运费
 
-	private String isReturn;//是否退货
+	private String isReturn;//是否退货 0未退款 1已申请 2 已退货
 
 	
 	public String getId() {
