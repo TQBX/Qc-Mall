@@ -9,6 +9,8 @@ import com.qingcheng.service.system.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import tk.mybatis.mapper.entity.Example;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -93,6 +95,42 @@ public class MenuServiceImpl implements MenuService {
      */
     public void delete(String id) {
         menuMapper.deleteByPrimaryKey(id);
+    }
+
+    @Override
+    public List<Map<String, Object>> findAllMenu() {
+
+        //方式1 首先按照条件查询上级菜单id为0的列表(一级菜单) 循环得到每个一级菜单id,把id作为parentid,查询二级菜单,嵌套循环,得到三级
+        //不推荐方式1,交互频繁
+        //方式2 首先把符合条件的菜单查询出来(列表),通过内存判断筛选除符合条件的记录(每一级的菜单列表)
+
+        List<Menu> menuList = findAll();
+        return findMenuListByParentId(menuList,"0");
+    }
+
+    /**
+     * 查询下级菜单
+     * @param menuList
+     * @param parentId
+     * @return
+     */
+    private List<Map<String,Object>> findMenuListByParentId(List<Menu> menuList,String parentId){
+
+        List<Map<String,Object>> mapList = new ArrayList<Map<String,Object>>();
+
+        for (Menu menu : menuList) {
+            if(parentId.equals(menu.getParentId())){
+                Map<String,Object> map = new HashMap<String,Object>();
+                map.put("path",menu.getId());
+                map.put("title",menu.getName());
+                map.put("icon",menu.getIcon());
+                map.put("linkUrl",menu.getUrl());
+                map.put("children",findMenuListByParentId(menuList,menu.getId()));
+                mapList.add(map);
+            }
+        }
+        return mapList;
+
     }
 
     /**
