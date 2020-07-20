@@ -18,6 +18,7 @@ com\qingcheng\controller\goods\PrefController.class
 com\qingcheng\controller\system\ResourceController.class
 com\qingcheng\controller\goods\ParaController.class
 com\qingcheng\controller\user\ProvincesController.class
+com\qingcheng\controller\LoginController.class
 com\qingcheng\controller\goods\AlbumController.class
 com\qingcheng\controller\business\ActivityController.class
 com\qingcheng\controller\goods\TemplateController.class
