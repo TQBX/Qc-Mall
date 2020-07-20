@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="../css/elementui.css">
         <link rel="stylesheet" href="../plugins/font‐awesome/css/font‐ awesome.min.css">
         <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/echarts.common.min.js"></script>
     </head>
     <body>
         <div id="app">
@@ -18,6 +19,8 @@
                     end-placeholder="结束日期"
             @change="fetchData()">
             </el-date-picker>
+            <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+            <div id="main" style="width: 1000px;height:400px;"></div>
             <el-table
                     :data="tableData"
                     border
@@ -88,6 +91,69 @@
                             this.totalNum+=this.tableData[i].num;
                             this.totalMoney+=this.tableData[i].money;
 			            }
+
+			            let legendData = [];//图例
+                        let numData = [];//销售量数据
+			            let moneyData = [];//销售额数据
+			            for (let i = 0; i < this.tableData.length; i++) {
+                            legendData.push(this.tableData[i].categoryName)
+                            numData.push({name:this.tableData[i].categoryName ,value:this.tableData[i].num})
+                            moneyData.push({name:this.tableData[i].categoryName ,value:this.tableData[i].money})
+			            }
+
+
+			            //创建饼图
+			            // 基于准备好的dom，初始化echarts实例
+			            let myChart = echarts.init(document.getElementById('main'));
+			            // var data = genData(50);
+
+			            let option = {
+				            title: {
+					            text: '商品类目销售分析',
+					            subtext: '纯属虚构',
+					            left: 'center'
+				            },
+				            tooltip: {
+					            trigger: 'item',
+					            formatter: '{a} <br/>{b} : {c} ({d}%)'
+				            },
+				            legend: {
+					            orient: 'vertical',
+					            left: 'left',
+					            data: legendData
+				            },
+				            series: [
+					            {
+						            name: '销售量',
+						            type: 'pie',
+						            radius: '35%',
+						            center: ['30%', '60%'],
+						            data: numData,
+						            emphasis: {
+							            itemStyle: {
+								            shadowBlur: 10,
+								            shadowOffsetX: 0,
+								            shadowColor: 'rgba(0, 0, 0, 0.5)'
+							            }
+						            }
+					            },			        {
+						            name: '销售额',
+						            type: 'pie',
+						            radius: '35%',
+						            center: ['80%', '60%'],
+						            data: moneyData,
+						            emphasis: {
+							            itemStyle: {
+								            shadowBlur: 10,
+								            shadowOffsetX: 0,
+								            shadowColor: 'rgba(0, 0, 0, 0.5)'
+							            }
+						            }
+					            }
+				            ]
+			            };
+			            // 使用刚指定的配置项和数据显示图表。
+			            myChart.setOption(option);
                     })
                 }
             }
