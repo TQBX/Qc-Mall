@@ -3,6 +3,7 @@ D:\Java_Project\qc-mall\qc_parent\qc_web_manager\src\main\java\com\qingcheng\con
 D:\Java_Project\qc-mall\qc_parent\qc_web_manager\src\main\java\com\qingcheng\controller\system\RoleController.java
 D:\Java_Project\qc-mall\qc_parent\qc_web_manager\src\main\java\com\qingcheng\controller\goods\SpuController.java
 D:\Java_Project\qc-mall\qc_parent\qc_web_manager\src\main\java\com\qingcheng\controller\goods\PrefController.java
+D:\Java_Project\qc-mall\qc_parent\qc_web_manager\src\main\java\com\qingcheng\controller\order\CategoryReportController.java
 D:\Java_Project\qc-mall\qc_parent\qc_web_manager\src\main\java\com\qingcheng\controller\goods\SpecController.java
 D:\Java_Project\qc-mall\qc_parent\qc_web_manager\src\main\java\com\qingcheng\controller\system\MenuController.java
 D:\Java_Project\qc-mall\qc_parent\qc_web_manager\src\main\java\com\qingcheng\controller\user\AddressController.java
@@ -12,6 +13,7 @@ D:\Java_Project\qc-mall\qc_parent\qc_web_manager\src\main\java\com\qingcheng\con
 D:\Java_Project\qc-mall\qc_parent\qc_web_manager\src\main\java\com\qingcheng\controller\order\OrderItemController.java
 D:\Java_Project\qc-mall\qc_parent\qc_web_manager\src\main\java\com\qingcheng\controller\order\ReturnOrderItemController.java
 D:\Java_Project\qc-mall\qc_parent\qc_web_manager\src\main\java\com\qingcheng\controller\user\ProvincesController.java
+D:\Java_Project\qc-mall\qc_parent\qc_web_manager\src\main\java\com\qingcheng\controller\order\OrderTask.java
 D:\Java_Project\qc-mall\qc_parent\qc_web_manager\src\main\java\com\qingcheng\controller\order\OrderLogController.java
 D:\Java_Project\qc-mall\qc_parent\qc_web_manager\src\main\java\com\qingcheng\controller\system\AdminController.java
 D:\Java_Project\qc-mall\qc_parent\qc_web_manager\src\main\java\com\qingcheng\controller\user\UserController.java

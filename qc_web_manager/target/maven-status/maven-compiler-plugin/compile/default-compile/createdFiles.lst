@@ -1,5 +1,7 @@
+com\qingcheng\controller\order\OrderTask.class
 com\qingcheng\controller\order\OrderConfigController.class
 com\qingcheng\controller\system\MenuController.class
+com\qingcheng\controller\order\CategoryReportController.class
 com\qingcheng\controller\goods\SpuController.class
 com\qingcheng\controller\order\OrderController.class
 com\qingcheng\controller\business\AdController.class

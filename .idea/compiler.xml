@@ -24,7 +24,7 @@
       <module name="qc_common" target="1.5" />
       <module name="qc_common_service" target="1.5" />
       <module name="qc_common_web" target="1.5" />
-      <module name="qc_interface" target="1.5" />
+      <module name="qc_interface" target="8" />
       <module name="qc_parent" target="1.5" />
       <module name="qc_pojo" target="1.5" />
       <module name="qc_service_business" target="1.5" />
@@ -33,7 +33,7 @@
       <module name="qc_service_order" target="8" />
       <module name="qc_service_system" target="1.5" />
       <module name="qc_service_user" target="1.5" />
-      <module name="qc_web_manager" target="1.5" />
+      <module name="qc_web_manager" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

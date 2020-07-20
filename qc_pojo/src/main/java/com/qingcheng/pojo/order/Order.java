@@ -1,4 +1,6 @@
 package com.qingcheng.pojo.order;
+import lombok.ToString;
+
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
@@ -8,6 +10,7 @@ import java.io.Serializable;
  *
  */
 @Table(name="tb_order")
+@ToString
 public class Order implements Serializable{
 
 	@Id

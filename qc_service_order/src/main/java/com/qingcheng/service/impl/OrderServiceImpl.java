@@ -1,4 +1,5 @@
 package com.qingcheng.service.impl;
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
@@ -9,6 +10,9 @@ import com.qingcheng.dao.OrderMapper;
 import com.qingcheng.entity.PageResult;
 import com.qingcheng.pojo.order.*;
 import com.qingcheng.service.order.OrderService;
+import com.qingcheng.util.IdWorker;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import tk.mybatis.mapper.entity.Example;
@@ -21,6 +25,12 @@ import java.util.Map;
 
 @Service
 public class OrderServiceImpl implements OrderService {
+
+    private static final Logger logger = LoggerFactory.getLogger(OrderServiceImpl.class);
+
+    @Autowired
+    private IdWorker idWorker;
+
 
     @Autowired
     private OrderMapper orderMapper;
@@ -177,11 +187,14 @@ public class OrderServiceImpl implements OrderService {
 
         //查询超时订单
         List<Order> orders = orderMapper.selectByExample(example);
+        logger.info("orders:{}",orders);
 
         //遍历所有超时的订单,修改状态
         for (Order order : orders) {
-
+            //生成id
+            logger.info("order:{}",order);
             OrderLog orderLog = new OrderLog();//记录日志
+            orderLog.setId(idWorker.nextId()+"");
             orderLog.setOperater("system");
             orderLog.setOperateTime(new Date());
             orderLog.setOrderStatus("4");//已关闭

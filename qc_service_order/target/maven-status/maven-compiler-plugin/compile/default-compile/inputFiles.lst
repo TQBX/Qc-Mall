@@ -1,3 +1,4 @@
+D:\Java_Project\qc-mall\qc_parent\qc_service_order\src\main\java\com\qingcheng\service\impl\CategoryReportServiceImpl.java
 D:\Java_Project\qc-mall\qc_parent\qc_service_order\src\main\java\com\qingcheng\service\impl\PreferentialServiceImpl.java
 D:\Java_Project\qc-mall\qc_parent\qc_service_order\src\main\java\com\qingcheng\service\impl\OrderConfigServiceImpl.java
 D:\Java_Project\qc-mall\qc_parent\qc_service_order\src\main\java\com\qingcheng\dao\ReturnOrderMapper.java
@@ -13,4 +14,5 @@ D:\Java_Project\qc-mall\qc_parent\qc_service_order\src\main\java\com\qingcheng\d
 D:\Java_Project\qc-mall\qc_parent\qc_service_order\src\main\java\com\qingcheng\dao\ReturnOrderItemMapper.java
 D:\Java_Project\qc-mall\qc_parent\qc_service_order\src\main\java\com\qingcheng\service\impl\ReturnCauseServiceImpl.java
 D:\Java_Project\qc-mall\qc_parent\qc_service_order\src\main\java\com\qingcheng\dao\ReturnCauseMapper.java
+D:\Java_Project\qc-mall\qc_parent\qc_service_order\src\main\java\com\qingcheng\dao\CategoryReportMapper.java
 D:\Java_Project\qc-mall\qc_parent\qc_service_order\src\main\java\com\qingcheng\service\impl\OrderLogServiceImpl.java
