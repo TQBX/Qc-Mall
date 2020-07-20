@@ -30,4 +30,5 @@ com\qingcheng\controller\goods\CategoryController.class
 com\qingcheng\controller\goods\BrandController.class
 com\qingcheng\controller\goods\SpecController.class
 com\qingcheng\controller\user\AreasController.class
+com\qingcheng\controller\UserDetailServiceImpl.class
 com\qingcheng\controller\order\OrderLogController.class

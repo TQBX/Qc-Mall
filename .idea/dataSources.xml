@@ -13,5 +13,11 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/qingcheng_order</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="system" uuid="a2f1fdf9-bebc-43a3-9ab0-e44a98da3f51">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/qingcheng_system</jdbc-url>
+    </data-source>
   </component>
 </project>
